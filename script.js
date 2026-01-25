@@ -51,6 +51,12 @@ ysTabs.forEach(tab => {
 const galleryCards = document.querySelectorAll('.gallery-card[data-parallax]');
 
 function updateParallax() {
+    // Disable parallax on mobile devices for better performance/clarity
+    if (window.innerWidth <= 768) {
+        galleryCards.forEach(card => card.style.transform = '');
+        return;
+    }
+
     const scrolled = window.pageYOffset;
 
     galleryCards.forEach(card => {
@@ -221,6 +227,7 @@ const galleryCardsHover = document.querySelectorAll('.gallery-card');
 
 galleryCardsHover.forEach(card => {
     card.addEventListener('mousemove', (e) => {
+        if (window.innerWidth <= 768) return; // Disable hover effects on mobile
         const rect = card.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;

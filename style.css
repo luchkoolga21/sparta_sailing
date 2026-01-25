@@ -1204,6 +1204,16 @@ footer {
     .gallery-grid {
         grid-template-columns: 1fr;
         min-height: auto;
+        gap: 16px;
+        /* Consistent spacing on mobile */
+    }
+
+    .gallery-card {
+        height: 300px;
+        /* Fixed height for consistency on mobile */
+        transform: none !important;
+        /* Force disable shifts */
+        margin-bottom: 0;
     }
 
     .card-1,
