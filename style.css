@@ -1202,18 +1202,22 @@ footer {
     }
 
     .gallery-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         min-height: auto;
-        gap: 16px;
-        /* Consistent spacing on mobile */
     }
 
     .gallery-card {
-        height: 300px;
-        /* Fixed height for consistency on mobile */
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
         transform: none !important;
-        /* Force disable shifts */
         margin-bottom: 0;
+    }
+
+    .gallery-card:hover {
+        transform: none !important;
     }
 
     .card-1,
@@ -1222,7 +1226,7 @@ footer {
     .card-4,
     .card-5,
     .card-6 {
-        grid-column: 1 / -1;
+        grid-column: auto;
         grid-row: auto;
     }
 

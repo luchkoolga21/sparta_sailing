@@ -250,10 +250,23 @@
     }
 
     .moments-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
 
-    .video-placeholder {
-        min-height: 300px;
+    .moment-card {
+        width: 100%;
+        height: auto;
+        transform: none !important;
+    }
+
+    .moment-card:hover {
+        transform: none !important;
+    }
+
+    .moment-card img {
+        height: 250px;
+        /* Consistent height on mobile */
     }
 }
