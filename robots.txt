@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://luchkoolga21.github.io/sparta_sailing/sitemap.xml
+Disallow: /
