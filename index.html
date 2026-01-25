@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Парусная яхта SPARTA в Находке. Не просто аренда судна — незабываемые впечатления. Рассветы, закаты, скрытые бухты Приморья. Капитан Семен Хворостухин знает каждый остров.">
+    <title>SPARTA Sailing | Парусная яхта в Находке — Приморье с воды</title>
+
+    <!-- Google Fonts: Alegreya Sans (Humanist Sans with Calligraphic feel) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800;900&subset=cyrillic&display=swap"
+        rel="stylesheet">
+
+
+
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="interactive-styles.css">
+</head>
+
+<body>
+
+
+    <!-- ==================== HEADER ==================== -->
+    <!-- Sticky Social Speed Dial (FAB) -->
+    <div class="fab-container">
+        <div class="fab-menu">
+            <a href="https://wa.me/79990000000" class="fab-item whatsapp" target="_blank" aria-label="WhatsApp">
+                <span class="fab-tooltip">WhatsApp</span>
+                <span class="iconify" data-icon="logos:whatsapp-icon"></span>
+            </a>
+            <a href="https://t.me/sparta_nakhodka" class="fab-item telegram" target="_blank" aria-label="Telegram">
+                <span class="fab-tooltip">Telegram</span>
+                <span class="iconify" data-icon="logos:telegram"></span>
+            </a>
+            <a href="https://instagram.com/sparta_sailing" class="fab-item instagram" target="_blank"
+                aria-label="Instagram">
+                <span class="fab-tooltip">Instagram</span>
+                <span class="iconify" data-icon="skill-icons:instagram"></span>
+            </a>
+        </div>
+        <button class="fab-trigger" aria-label="Связаться с нами">
+            <span class="fab-main-label">Связаться</span>
+            <span class="iconify" data-icon="solar:chat-dots-linear"></span>
+        </button>
+    </div>
+
+    <header>
+        <nav class="container">
+            <div class="nav-logo">
+                <img src="LOGO.png" alt="SPARTA" style="height: 40px; width: auto;">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#yacht-skipper">Команда</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <button class="nav-toggle-mobile" aria-label="Toggle navigation">
+                <span class="iconify" data-icon="solar:hamburger-menu-linear"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN ==================== -->
+    <main>
+        <!-- --- Hero Section --- -->
+        <section id="hero">
+            <!-- Video Background -->
+            <div class="hero-background">
+                <video autoplay muted loop playsinline poster="Foto/regatta_bg.jpg">
+                    <source src="video/2025-11-09_14-09-39_msg523.MOV" type="video/mp4">
+                    <source src="video/2025-11-09_14-09-39_msg523.MOV" type="video/quicktime">
+                </video>
+                <div class="overlay"></div>
+            </div>
+
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-heading">Ваш билет к самым красивым местам Приморья</h1>
+                    <p class="hero-subtext">
+                        Не просто аренда яхты — побег из города в тишину моря. Трёхозёрье, Лисий остров и Аскольд —
+                        увиденные с воды.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="https://t.me/sparta_nakhodka" class="btn-primary" target="_blank">
+                            Написать капитану
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- Interactive Showcase Section --- -->
+        <section id="showcase">
+            <div class="container">
+                <h2 class="section-title">Приморье с воды</h2>
+                <p class="section-subtitle">Выберите, что вас интересует</p>
+
+                <div class="showcase-tabs">
+                    <button class="showcase-tab active" data-tab="video">
+                        Видео-обзор
+                    </button>
+                    <button class="showcase-tab" data-tab="gallery">
+                        Моменты
+                    </button>
+                    <button class="showcase-tab" data-tab="experience">
+                        Впечатления
+                    </button>
+                </div>
+
+                <div class="showcase-content">
+                    <!-- Video Tab -->
+                    <div class="showcase-panel active" data-panel="video">
+                        <div class="video-container">
+                            <video controls class="showcase-video">
+                                <source src="video/0125.mov" type="video/quicktime">
+                                <source src="video/0125.mov" type="video/mp4">
+                                Ваш браузер не поддерживает видео.
+                            </video>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Tab -->
+                    <div class="showcase-panel" data-panel="gallery">
+                        <div class="moments-grid">
+                            <div class="moment-card">
+                                <img src="Foto/Gemini_Generated_Image_xvj8j5xvj8j5xvj8.png" alt="Рассвет">
+                                <span class="moment-label">Рассвет над Аскольдом</span>
+                            </div>
+                            <div class="moment-card">
+                                <img src="Foto/2025-07-20_19-56-33_msg468.jpg" alt="Регата в тумане">
+                                <span class="moment-label">Мистический туман</span>
+                            </div>
+                            <div class="moment-card">
+                                <img src="Foto/Gemini_Generated_Image_5nvjjq5nvjjq5nvj.png" alt="SPARTA на закате">
+                                <span class="moment-label">Закат в бухте</span>
+                            </div>
+                            <!-- New Photos -->
+                            <div class="moment-card">
+                                <img src="Foto/2025-08-31_10-13-41_msg488.jpg" alt="Регата">
+                                <span class="moment-label">Гонка под парусами</span>
+                            </div>
+                            <div class="moment-card">
+                                <img src="Foto/2025-09-21_13-17-51_msg495.jpg" alt="Красный парус">
+                                <span class="moment-label">Яркие моменты</span>
+                            </div>
+                            <div class="moment-card">
+                                <img src="Foto/2025-09-27_13-01-14_msg509.jpg" alt="Флотилия">
+                                <span class="moment-label">Вместе веселее</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience Tab -->
+                    <div class="showcase-panel" data-panel="experience">
+                        <div class="experience-slides">
+                            <div class="experience-card">
+                                <blockquote>
+                                    "Это был лучший день лета! Мы видели ларг, кормили их рыбой и провели незабываемый
+                                    закат на воде."
+                                </blockquote>
+                                <p class="author">— Анна, Instagram</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- About Section --- -->
+        <section id="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="section-title">Окно в океан</h2>
+                    <p class="section-description">
+                        Мы продаём не просто аренду судна — мы продаём побег из города в тишину моря.
+                        Здесь нет суеты, только вы, ветер и бескрайний горизонт. Приморье с воды — это совершенно другой
+                        мир. Парусная яхта SPARTA — ваш инструмент для доступа к красоте, свободе и незабываемым
+                        впечатлениям.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-card has-image">
+                            <div class="feature-img-wrap">
+                                <img src="Foto/Gemini_Generated_Image_5nvjjq5nvjjq5nvj.png" alt="Красота природы">
+                            </div>
+                            <h3>Красота природы</h3>
+                            <p>Скалы, туманы, закаты — то, что не увидеть с берега</p>
+                        </div>
+                        <div class="feature-card has-image">
+                            <div class="feature-img-wrap">
+                                <img src="Foto/safety_vest.jpg" alt="Безопасность">
+                            </div>
+                            <h3>Безопасность</h3>
+                            <p>Опытный капитан, современное оборудование</p>
+                        </div>
+                        <div class="feature-card has-image">
+                            <div class="feature-img-wrap">
+                                <img src="Foto/2025-09-23_11-24-12_msg506.jpg" alt="Эмоции">
+                            </div>
+                            <h3>Эмоции</h3>
+                            <p>Впечатления, которые останутся навсегда</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- Services Section --- -->
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title">Услуги</h2>
+                <p class="section-subtitle">Выберите формат отдыха под ваше настроение</p>
+
+                <div class="services-grid">
+                    <!-- Basic Services -->
+                    <div class="service-tier">
+                        <h3 class="tier-title">Базовые</h3>
+                        <ul class="service-list">
+                            <li>
+                                <span class="iconify" data-icon="solar:routing-2-linear"></span>
+                                Морские прогулки (1-5 часов)
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="lucide:fish"></span>
+                                Рыбалка
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="solar:map-point-linear"></span>
+                                Экскурсии по островам
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="solar:cup-hot-linear"></span>
+                                Пикник на палубе
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Premium Services -->
+                    <div class="service-tier featured">
+                        <div class="tier-badge">Premium</div>
+                        <h3 class="tier-title">Премиум</h3>
+                        <ul class="service-list">
+                            <li>
+                                <span class="iconify" data-icon="solar:camera-linear"></span>
+                                Фотосессии (свадьбы, блог)
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="solar:chef-hat-linear"></span>
+                                Кейтеринг (морепродукты, ежи)
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="solar:music-note-linear"></span>
+                                Живая музыка (саксофон)
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="solar:heart-linear"></span>
+                                Романтический ужин на закате
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Specialization -->
+                    <div class="service-tier">
+                        <h3 class="tier-title">Специализация</h3>
+                        <ul class="service-list">
+                            <li>
+                                <span class="iconify" data-icon="solar:star-linear"></span>
+                                Трофейная рыбалка (май-октябрь)
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="solar:eye-linear"></span>
+                                Экскурсии к лежбищам ларг
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="lucide:cloud-fog"></span>
+                                Туманные утра (атмосферные выходы)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- Yacht & Skipper Combined Section --- -->
+        <section id="yacht-skipper">
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <p class="section-subtitle">Познакомьтесь с яхтой и капитаном</p>
+
+                <!-- Yacht Section -->
+                <div class="yacht-layout" style="margin-bottom: 120px;">
+                    <div class="yacht-image">
+                        <img src="Foto/2025-09-27_13-01-14_msg509.jpg" alt="Яхта SPARTA">
+                    </div>
+                    <div class="yacht-specs">
+                        <h3>Технические характеристики</h3>
+                        <div class="spec-card">
+                            <span class="iconify spec-icon" data-icon="solar:ruler-linear"></span>
+                            <div>
+                                <strong>Длина</strong>
+                                <p>12 метров</p>
+                            </div>
+                        </div>
+                        <div class="spec-card">
+                            <span class="iconify spec-icon" data-icon="solar:users-group-rounded-linear"></span>
+                            <div>
+                                <strong>Вместимость</strong>
+                                <p>До 10 человек</p>
+                            </div>
+                        </div>
+                        <div class="spec-card">
+                            <span class="iconify spec-icon" data-icon="solar:home-linear"></span>
+                            <div>
+                                <strong>Удобства</strong>
+                                <p>WC, Каюта, Камбуз</p>
+                            </div>
+                        </div>
+                        <div class="spec-card">
+                            <span class="iconify spec-icon" data-icon="solar:shield-check-linear"></span>
+                            <div>
+                                <strong>Безопасность</strong>
+                                <p>Все сертификаты</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skipper Section -->
+                <div class="skipper-layout">
+                    <div class="skipper-info">
+                        <h3>Ваш капитан</h3>
+                        <p class="skipper-bio">
+                            Семен Хворостухин — опытный яхтсмен, который знает каждый укромный уголок побережья.
+                            С ним вы увидите то, что скрыто от глаз обычных туристов.
+                        </p>
+                        <blockquote class="skipper-quote">
+                            "Море не прощает ошибок, но щедро дарит свободу."
+                        </blockquote>
+                        <div class="skipper-credentials">
+                            <div class="credential-item">
+                                <span class="iconify" data-icon="solar:diploma-verified-linear"></span>
+                                <span>Лицензия IYT Yachtmaster</span>
+                            </div>
+                            <div class="credential-item">
+                                <span class="iconify" data-icon="heroicons:trophy"></span>
+                                <span>Победитель регат Приморского края</span>
+                            </div>
+                            <div class="credential-item">
+                                <span class="iconify" data-icon="solar:clock-circle-linear"></span>
+                                <span>15 лет морского опыта</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skipper-image">
+                        <img src="Foto/2025-06-30_04-37-56_msg461.jpg" alt="Капитан Семен Хворостухин">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- Gallery Section --- -->
+        <section id="gallery">
+            <div class="container">
+                <h2 class="section-title">Галерея</h2>
+
+                <div class="gallery-grid">
+                    <div class="gallery-card card-1" data-parallax="0.3">
+                        <img src="Foto/2025-09-27_13-01-14_msg510.jpg" alt="Вдохновение">
+                    </div>
+                    <div class="gallery-card card-2" data-parallax="0.5">
+                        <img src="Foto/2025-09-21_14-46-04_msg499.jpg" alt="Свобода">
+                    </div>
+                    <div class="gallery-card card-3" data-parallax="0.2">
+                        <img src="Foto/Gemini_Generated_Image_xvj8j5xvj8j5xvj8.png" alt="Рассвет">
+                    </div>
+                    <div class="gallery-card card-4" data-parallax="0.4">
+                        <img src="Foto/2025-09-23_11-14-51_msg504.jpg" alt="Драйв">
+                    </div>
+                    <div class="gallery-card card-5" data-parallax="0.6">
+                        <img src="Foto/2025-09-27_13-01-14_msg511.jpg" alt="Регата">
+                    </div>
+                    <div class="gallery-card card-6" data-parallax="0.3">
+                        <img src="Foto/2025-09-21_14-46-04_msg502.jpg" alt="Команда">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- Client Guide Section --- -->
+        <section id="guide">
+            <div class="container">
+                <h2 class="section-title">Гид для гостя</h2>
+                <p class="section-subtitle">Всё, что нужно знать перед поездкой</p>
+
+                <div class="guide-grid">
+                    <div class="guide-card">
+                        <span class="iconify guide-icon" data-icon="solar:map-point-linear"></span>
+                        <h3>Как добраться</h3>
+                        <p>Причал находится в центре Находки, координаты: 42.8154° N, 132.8735° E</p>
+                    </div>
+                    <div class="guide-card">
+                        <span class="iconify guide-icon" data-icon="solar:parking-linear"></span>
+                        <h3>Парковка</h3>
+                        <p>Бесплатная парковка рядом с причалом. Ваша машина будет в безопасности</p>
+                    </div>
+                    <div class="guide-card">
+                        <span class="iconify guide-icon" data-icon="solar:checklist-linear"></span>
+                        <h3>Что взять с собой</h3>
+                        <ul class="checklist">
+                            <li><span class="iconify" data-icon="solar:sun-2-linear"></span> Солнцезащитный крем</li>
+                            <li><span class="iconify" data-icon="solar:wind-linear"></span> Ветровка</li>
+                            <li><span class="iconify" data-icon="solar:glasses-linear"></span> Солнцезащитные очки</li>
+                            <li><span class="iconify" data-icon="solar:med-kit-linear"></span> Таблетки от укачивания
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --- Contacts Section --- -->
+        <section id="contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <p class="section-subtitle">Забронируйте свой выход в море</p>
+
+                <div class="contacts-simple-layout">
+                    <a href="https://wa.me/79990000000" class="contact-card" target="_blank">
+                        <span class="iconify contact-icon" data-icon="logos:whatsapp-icon"></span>
+                        <span>+7 (999) 000-00-00</span>
+                    </a>
+                    <a href="https://t.me/sparta_nakhodka" class="contact-card" target="_blank">
+                        <span class="iconify contact-icon" data-icon="logos:telegram"></span>
+                        <span>@sparta_nakhodka</span>
+                    </a>
+                    <a href="https://instagram.com/sparta_sailing" class="contact-card" target="_blank">
+                        <span class="iconify contact-icon" data-icon="skill-icons:instagram"></span>
+                        <span>@sparta_sailing</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="LOGO.png" alt="SPARTA" style="height: 30px; width: auto; margin-bottom: 8px;">
+                    <p>Больше, чем яхта. Это состояние.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" target="_blank" aria-label="Instagram">
+                        <span class="iconify" data-icon="solar:instagram-linear"></span>
+                    </a>
+                    <a href="#" target="_blank" aria-label="VK">
+                        <span class="iconify" data-icon="solar:vk-linear"></span>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-text">© 2026 SPARTA Sailing | Находка, Приморский край</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img src="" alt="Full screen image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
