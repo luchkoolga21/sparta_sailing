@@ -656,6 +656,9 @@ header nav {
     background-color: var(--bg-primary);
     border-radius: var(--radius-md);
     transition: var(--transition-fast);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .guide-card:hover {
@@ -664,9 +667,8 @@ header nav {
 }
 
 .guide-icon {
-    font-size: 48px;
+    font-size: 40px;
     color: var(--accent-secondary);
-    /* Turquoise */
     margin-bottom: var(--space-sm);
 }
 
@@ -686,21 +688,22 @@ header nav {
 .checklist {
     list-style: none;
     margin-top: var(--space-sm);
+    padding: 0;
 }
 
 .checklist li {
     display: flex;
     align-items: center;
-    gap: var(--space-xs);
-    padding: var(--space-xs) 0;
+    gap: 12px;
+    padding: 8px 0;
     font-size: var(--fs-small);
     color: var(--text-primary);
 }
 
 .checklist .iconify {
-    font-size: 16px;
+    font-size: 18px;
     color: var(--accent-secondary);
-    /* Turquoise */
+    flex-shrink: 0;
 }
 
 /* ==================== CONTACTS SECTION ==================== */
