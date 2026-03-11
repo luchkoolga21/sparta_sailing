@@ -81,12 +81,11 @@
 
 .showcase-video {
     width: 100%;
+    aspect-ratio: 16 / 9; /* Ensure common widescreen ratio */
     display: block;
     border-radius: var(--radius-lg);
-    max-height: 600px;
-    object-fit: contain;
-    /* or cover if you want to fill */
-    background: #000;
+    object-fit: cover;
+    background: transparent;
 }
 
 /* Moments Grid */
